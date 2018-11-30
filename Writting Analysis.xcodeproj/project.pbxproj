@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		925F7EA321B190BC008B62DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925F7EA221B190BC008B62DF /* main.cpp */; };
+		925F7EAB21B19201008B62DF /* BT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925F7EA921B19201008B62DF /* BT.cpp */; };
+		925F7EAE21B19214008B62DF /* BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925F7EAC21B19214008B62DF /* BST.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		925F7E9F21B190BC008B62DF /* Writting Analysis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Writting Analysis"; sourceTree = BUILT_PRODUCTS_DIR; };
 		925F7EA221B190BC008B62DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		925F7EA921B19201008B62DF /* BT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BT.cpp; sourceTree = "<group>"; };
+		925F7EAA21B19201008B62DF /* BT.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BT.hpp; sourceTree = "<group>"; };
+		925F7EAC21B19214008B62DF /* BST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BST.cpp; sourceTree = "<group>"; };
+		925F7EAD21B19214008B62DF /* BST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BST.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				925F7EA221B190BC008B62DF /* main.cpp */,
+				925F7EA921B19201008B62DF /* BT.cpp */,
+				925F7EAA21B19201008B62DF /* BT.hpp */,
+				925F7EAC21B19214008B62DF /* BST.cpp */,
+				925F7EAD21B19214008B62DF /* BST.hpp */,
 			);
 			path = "Writting Analysis";
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925F7EAE21B19214008B62DF /* BST.cpp in Sources */,
 				925F7EA321B190BC008B62DF /* main.cpp in Sources */,
+				925F7EAB21B19201008B62DF /* BT.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
