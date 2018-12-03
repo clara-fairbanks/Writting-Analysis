@@ -8,8 +8,6 @@
 
 #include "BT.hpp"
 #include <iostream>
-using namespace std;
-
 
 //default constructor
 template <class T>
@@ -67,6 +65,6 @@ void printTree(node<T> *root) {
     
     if ( !root ) return;
     print( root->left );
-    cout<< root->data <<' ';
+    std::cout<< root->data <<' ';
     print( root->right );
 }

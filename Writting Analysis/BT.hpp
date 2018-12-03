@@ -29,9 +29,9 @@ protected:
     BT( const BT & );
     void operator = ( const BT & );
 public:
-    void destroyT( node<T>*& );
+    void destroyTree( node<T>*& );
     void copyTree( node<T>*, node<T>*& );
-    void print( node<T>* );
+    void printTree( node<T>* );
     
 };
 
